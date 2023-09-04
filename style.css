@@ -1,0 +1,375 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'MyFont' ;
+  }
+
+  @font-face {
+    font-family: 'MyFont';
+    src: url(fonts/Gilroy-Medium.woff);
+    
+}
+
+
+  .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  .tesla {
+      display: flex;
+      align-items: center;
+
+  }
+
+  .info p {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #707070;
+  }
+
+  .info h1 {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 79px;
+      letter-spacing: 0em;
+      text-align: left;
+
+  }
+
+  .equipment p {
+
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #707070;
+  }
+
+  .equipment h1 {
+
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: left;
+
+  }
+
+
+
+  .info {
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .equipment {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 100px;
+  }
+
+  .speed_auto {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .temperature {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .disks {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .btns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border: none;
+      margin-left: 20px; 
+  }
+
+  /* button {
+    border: none;
+  } */
+
+
+
+  /* колёса */
+
+  .item {
+    position: relative;
+    top: 460px;
+    left: 313px;
+     margin-top:20px;
+      width: 120px;
+      -webkit-animation-name: rotation;
+      -webkit-animation-duration: 3ms;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: rotation;
+      -moz-animation-duration: 3sm;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -o-animation-name: rotation;
+      -o-animation-duration: 3sm;
+      -o-animation-iteration-count: infinite;
+      -o-animation-timing-function: linear;
+      animation-name: rotation;
+      animation-duration: 3sm;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+   
+  @-webkit-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @-moz-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @-o-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(720deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+
+  .item2{
+    position: relative;
+    top: 460px;
+    left: 668px;
+     margin-top:20px;
+      width: 120px;
+      -webkit-animation-name: rotation;
+      -webkit-animation-duration: 3ms;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: rotation;
+      -moz-animation-duration: 3sm;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -o-animation-name: rotation;
+      -o-animation-duration: 3sm;
+      -o-animation-iteration-count: infinite;
+      -o-animation-timing-function: linear;
+      animation-name: rotation;
+      animation-duration: 3sm;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+   
+  @-webkit-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @-moz-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @-o-keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+  @keyframes rotation {
+      0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(720deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+  }
+
+  
+
+
+
+
+
+
+
+  /* toggle in label designing */
+  .toggle {
+      position: relative;
+      display: inline-block;
+      width: 39px;
+      height: 24px;
+      background-color: grey;
+      border-radius: 30px;
+      border: 2px solid white;
+  }
+
+  /* After slide changes */
+  .toggle:after {
+      content: '';
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background-color: white;
+      top: 1px;
+      left: 1px;
+      transition: all 0.5s;
+  }
+  
+
+  /* Checkbox checked effect */
+  .checkbox:checked+.toggle::after {
+      left: 15px;
+  }
+
+  /* Checkbox checked toggle label bg color */
+  .checkbox:checked+.toggle {
+      background-color: blue;
+  }
+
+  /* Checkbox vanished */
+  .checkbox {
+      display: none;
+  }
+
+
+
+
+
+  /* toggle in label designing */
+  .toggle1 {
+      position: relative;
+      display: inline-block;
+      width: 39px;
+      height: 24px;
+      background-color: grey;
+      border-radius: 30px;
+      border: 2px solid white;
+  }
+
+  /* After slide changes */
+  .toggle1:after {
+      content: '';
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background-color: white;
+      top: 1px;
+      left: 1px;
+      transition: all 0.5s;
+  }
+
+
+  /* Checkbox checked effect */
+  .checkbox1:checked+.toggle1::after {
+      left: 15px;
+  }
+
+  /* Checkbox checked toggle label bg color */
+  .checkbox1:checked+.toggle1 {
+      background-color: blue;
+  }
+
+  /* Checkbox vanished */
+  .checkbox1 {
+      display: none;
+  }
+
+
+
+
+
+
+  /* toggle in label designing */
+  .toggle2 {
+      position: relative;
+      display: inline-block;
+      width: 39px;
+      height: 24px;
+      background-color: grey;
+      border-radius: 30px;
+      border: 2px solid white;
+  }
+
+  /* After slide changes */
+  .toggle2:after {
+      content: '';
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background-color: white;
+      top: 1px;
+      left: 1px;
+      transition: all 0.5s;
+  }
+
+
+  /* Checkbox checked effect */
+  .checkbox2:checked+.toggle2::after {
+      left: 15px;
+  }
+
+  /* Checkbox checked toggle label bg color */
+  .checkbox2:checked+.toggle2 {
+      background-color: blue;
+  }
+
+  /* Checkbox vanished */
+  .checkbox2 {
+      display: none;
+  }
