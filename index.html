@@ -10,12 +10,23 @@
 
 <body>
     <div class="wrap">
-        <img class="item" src="https://href.kz/example/koleso.png" />
-        <img class="item2" src="https://href.kz/example/koleso.png" />
+        <div class="nineteen">
+            <img class="item" src="https://href.kz/example/koleso.png" />
+            <img class="item2" src="https://href.kz/example/koleso.png" />
+        </div>
+
+        <div class="twenty_one">
+            <img class="item3" src="https://href.kz/example/koleso.png" />
+            <img class="item4" src="https://href.kz/example/koleso.png" />
+        </div>
+
+
+
+
         <div class="tesla">
             <img src="img/image 1.png" alt="">
         </div>
-       
+
         <div class="info">
             <div class="speed">
                 <p>Запас хода</p>
@@ -23,7 +34,7 @@
             </div>
             <div class="price">
                 <p>Цена</p>
-                <h1 class="total_price">$89, 990</h1>
+                <h1 class="total_price">$89,990</h1>
             </div>
         </div>
 
@@ -47,15 +58,15 @@
             <div class="temperature">
                 <div class="left">
                     <p>Температура за окнами</p>
-                    <h1>20°</h1>
+                    <h1 class="edit_temperature">20°</h1>
 
                 </div>
 
                 <div class="btns">
-                    <button>
+                    <button class="temperature_up" id="temperature_up">
                         <img src="img/image 3.png" alt="">
                     </button>
-                    <button>
+                    <button class="temperature_down" id="temperature_down">
                         <img src="img/image 4.png" alt="">
 
                     </button>
@@ -65,15 +76,15 @@
             <div class="disks">
                 <div class="left">
                     <p>Диски</p>
-                    <h1>19</h1>
+                    <h1 class="disk">19</h1>
                 </div>
 
                 <div class="btns">
-                    <button>
+                    <button data-disk="disk_up" id="disk_up">
                         <img src="img/image 3.png" alt="">
                     </button>
 
-                    <button>
+                    <button data-disk="disk_down" id="disk_down">
                         <img src="img/image 4.png" alt="">
                     </button>
                 </div>
@@ -87,20 +98,20 @@
             </div>
             <div class="version">
                 <p>Версия Long Range</p>
-                <input type="checkbox" id="switch1" class="checkbox1 " />
+                <input type="checkbox" id="switch1" class="checkbox1 "  />
                 <label for="switch1" class="toggle1">
                 </label>
             </div>
             <div class="view">
                 <p>Вид автомобиля</p>
-                <input type="checkbox" id="switch2" class="checkbox2" />
+                <input type="checkbox" id="switch2" class="checkbox2" checked />
                 <label for="switch2" class="toggle2">
                 </label>
             </div>
         </div>
-        
-            
-        
+
+
+
     </div>
 
 
